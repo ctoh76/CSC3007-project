@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Titan One', cursive;
+}
+h1{
+    font-size:5.5rem;
+}
+h3{
+    font-size:2.5rem;
+    text-align: center;
+}
+div.intro{
+    width: 100%;
+    height: 200%;
+}
+div.bgImg{
+    width: 100%;
+    height: 100%;
+    background-image: url('imgs/introBg.png');
+}
+img.introAnimal{
+    max-width: 200px;
+    max-height: 300px;
+    width: 43.33%;
+    height: 43.33%;
+}
+body {
+    text-align: center;
+    background: #42455a;
+    color: #42455a;
+}
+div.text-box-outline{
+    max-height: 300px;
+    margin: 1%;
+    background: #00c2cb;
+
+}
+
+section.outline1 {
+    min-height: 50vh;
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #e0ffff;
+}
+
+section.outline2 {
+    min-height: 50vh;
+    max-height: 100vh;
+    background: #e0ffff;
+    color: #5a425a;
+}
+
+img.vis1BearHold{
+    max-width: 500px;
+    max-height: 600px;
+    width: 43.33%;
+    height: 43.33%;
+}
+
+img.vis1BearBook{
+    max-width: 200px;
+    max-height: 100%;
+    width: 13.33%;
+    height: 13.33%;
+    align-items: center;
+}
+
+img.vis1TableLeft{
+    max-width: 100%;
+    width: 80%;
+    height: 80%;
+}
+
+
+img.vis1TableRight{
+    max-width: 100%;
+    width: 80%;
+    height: 80%;
+}
+section.vis1 {
+    min-height: 50vh;
+    max-height: 500vh;
+}
+
+section.vis1_1 {
+    min-height: 50vh;
+    max-height: 500vh;
+}
+section.vis1_2 {
+    min-height: 50vh;
+    max-height: 500vh;
+    background: #e0ffff;
+    color: #5a425a;
+}
+
+h1.vis1_2Data{
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+section.vis1_2 {
+    min-height: 50vh;
+    max-height: 500vh;
+    background: #e0ffff;
+    color: #5a425a;
+}
+
+h1.vis1_3Task{
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+div.captionVis1_3_5 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+div.captionVis1_5{
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 220px;
+}
+
+section.vis1_5{
+    background: #e0ffff;
+    color: #5a425a;
+}
+
+h1.vis1_5Idiom{
+    text-align: center;
+    padding-top: 10px;
+}
+
+section.outline3 {
+    min-height: 50vh;
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #5a425a;
+    color: #e0ffff;
+}
+
+img.vis2Duck{
+    max-width: 300px;
+    max-height: 400px;
+    width: 17.33%;
+    height: 17.33%;
+}
+
+img.vis2TableLeft{
+    max-width: 100%;
+    width: 85%;
+    height: 85%;
+}
+
+img.vis2TableRight{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+section.vis2 {
+    min-height: 50vh;
+    max-height: 500vh;
+    background: #e0ffff;
+}
+
+img.vis2TableSloth{
+    max-width: 500px;
+    max-height: 600px;
+    width: 100%;
+    height: 100%;
+}
+
+section.vis2_2 {
+    min-height: 50vh;
+    max-height: 500vh;
+    background: #e0ffff;
+}
+
+img.vis2_2PenguinChart{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+img.outro_thank_you{
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+section.ending{
+    background: #e0ffff;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+section.qANDa{
+    background: #5a425a;
+    padding-left: 100px;
+    width: 100%;
+    height: 100%;
+}
+
+img.outro_qANDa{
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+section .text-container {
+    display: flex;
+}
+
+section .text-container .text-box {
+    margin: 10px;
+    background: #00c2cb;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 0.4s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
