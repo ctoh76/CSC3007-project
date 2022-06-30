@@ -229,8 +229,8 @@ img.vis2_solution {
 img.vis2_solutionHover {
     position: absolute;
     height: 100px;
-    top: 110px;
-    left: 545px;
+    top: 120px;
+    left: 585px;
     z-index: 2;
 }
 
